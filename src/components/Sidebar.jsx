@@ -172,10 +172,10 @@ const Sidebar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
           {/* Brand Header */}
           <div className="h-24 flex items-center px-8 mb-4">
             <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-[0_0_20px_rgba(79,70,229,0.5)] mr-3 rotate-3 group-hover:rotate-0 transition-transform">
-              <span className="text-2xl font-black">N</span>
+              <span className="text-2xl font-black">T</span>
             </div>
             <h2 className="text-xl font-black tracking-tight uppercase">
-              Core<span className="text-indigo-500">Node</span>
+              Tech<span className="text-indigo-500">Nova</span>
             </h2>
             <button
               onClick={() => setMobileMenuOpen(false)}
